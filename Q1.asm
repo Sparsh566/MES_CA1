@@ -1,11 +1,11 @@
 ORG 0000H
 
-MOV A, #07H
-ADD A, #02H
+MOV A, #10H      
+ADD A, #01H      
 
-MOV B, #126
-MUL AB
+MOV B, #99       
+MUL AB           
 
-ADD A, #03H
+ADD A, #02H     
 
 END
